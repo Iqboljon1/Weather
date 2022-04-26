@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/home_selector.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_add.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_back.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_close.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_cloudy.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_delete.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_dew.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_edit.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_globe.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_home_outlined.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_humidity.xml" value="0.2115" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_launcher_background.xml" value="0.184" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_location_add.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_location_broken.xml" value="0.2115" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_location_filled.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_location_no_white.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_location_outlined.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_more_vert.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_refresh.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/ic_search.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/location_selector.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/search_view_background.xml" value="0.158" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/tab_background.xml" value="0.2115" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/tab_selector.xml" value="0.2115" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/drawable/tab_unselected.xml" value="0.2115" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/fragment_basic.xml" value="0.4083333333333333" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/fragment_day.xml" value="0.33" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/fragment_location.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/fragment_no_internet.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/fragment_search_city.xml" value="0.4531791907514451" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/fragment_show_city.xml" value="0.33" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/fragment_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/item_city.xml" value="0.5" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/item_city_search.xml" value="0.67" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/item_daily_rv.xml" value="0.5" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/item_hourly_rv.xml" value="0.33" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/item_movies.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/layout/item_pager.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.184" />
+        <entry key="..\:/Codial/Project/Weather/app/src/main/res/xml/network_security_config.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.11954314720812183" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

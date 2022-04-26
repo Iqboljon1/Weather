@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".DayFragment">
+
+    <ImageView
+        android:id="@+id/image_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:src="@drawable/ic_back"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_cityName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/image_back"
+        app:layout_constraintLeft_toRightOf="@id/image_back"
+        app:layout_constraintBottom_toBottomOf="@id/image_back"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/image_back"
+        app:layout_constraintLeft_toLeftOf="@id/image_back"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:text="Today"
+        tools:ignore="HardcodedText"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_hourly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_today"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="horizontal"
+        tools:itemCount="10"
+        tools:listitem="@layout/item_hourly_rv"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/ly_liner"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        app:layout_constraintTop_toBottomOf="@id/rv_hourly"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="vertical"
+        android:background="@color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_daily"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/ly_liner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="10"
+        tools:listitem="@layout/item_daily_rv"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

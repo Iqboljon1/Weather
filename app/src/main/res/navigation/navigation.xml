@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.iraimjanov.weather.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_dayFragment"
+            app:destination="@id/dayFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_showCityFragment"
+            app:destination="@id/showCityFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_noInternetFragment"
+            app:destination="@id/noInternetFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/dayFragment"
+        android:name="com.iraimjanov.weather.DayFragment"
+        android:label="fragment_day"
+        tools:layout="@layout/fragment_day" >
+        <action
+            android:id="@+id/action_dayFragment_to_noInternetFragment"
+            app:destination="@id/noInternetFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/showCityFragment"
+        android:name="com.iraimjanov.weather.ShowCityFragment"
+        android:label="fragment_show_city"
+        tools:layout="@layout/fragment_show_city" >
+        <action
+            android:id="@+id/action_showCityFragment_to_searchCityFragment"
+            app:destination="@id/searchCityFragment" />
+        <action
+            android:id="@+id/action_showCityFragment_to_noInternetFragment"
+            app:destination="@id/noInternetFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchCityFragment"
+        android:name="com.iraimjanov.weather.SearchCityFragment"
+        android:label="fragment_search_city"
+        tools:layout="@layout/fragment_search_city" >
+        <action
+            android:id="@+id/action_searchCityFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/searchCityFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_searchCityFragment_to_noInternetFragment"
+            app:destination="@id/noInternetFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.iraimjanov.weather.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_searchCityFragment"
+            app:destination="@id/searchCityFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_noInternetFragment"
+            app:destination="@id/noInternetFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/noInternetFragment"
+        android:name="com.iraimjanov.weather.NoInternetFragment"
+        android:label="fragment_no_internet"
+        tools:layout="@layout/fragment_no_internet" />
+
+</navigation>
